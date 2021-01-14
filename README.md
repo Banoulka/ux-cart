@@ -176,7 +176,7 @@ The first is using the paypal and credit buttons with an api endpoint
 UX.init({
     total, // The total amount for the cart
     cart, // The list of products as an array
-    storageType: 'api',
+    storageType: UX.storeOptions.api,
     parentId: 'page-container',
     payCardId: 'card-btn', 
     payPaypalId: 'paypal-btn',
@@ -189,7 +189,7 @@ The second is using text download and all 3 buttons
 UX.init({
     total, // The total amount for the cart
     cart, // The list of products as an array
-    storageType: 'api',
+    storageType: UX.storeOptions.textFile,
     parentId: 'checkout-page',
     payCardId: 'buy-debit', 
     payPaypalId: 'buy-paypal',
