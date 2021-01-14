@@ -34,7 +34,7 @@ async function load() {
     UX.init({
         cart,
         total,
-        storageType: UX.options.console,
+        storageType: UX.options.api,
         endpoint: '/storeResult.php',
         payCardId: 'pay-card',
         payAppleId: 'pay-apple',

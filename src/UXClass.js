@@ -131,6 +131,7 @@ export default class UXCart {
 		switch(parseInt(this.storageOption)) {
 			case 0:
 				// log api
+				this.logger.sendApi(this.endpoint);g
 				break;
 			case 1:
 				// local storage
@@ -141,6 +142,7 @@ export default class UXCart {
 				break;
 			case 3:
 				// text file
+				this.logger.downloadText();
 				break;
 			case 4:
 				this.logger.consoleLogResults();
