@@ -7,7 +7,6 @@
 UX-Cart is a cart tracking application that is for a research project answering the question:
 
 > \<Insert Question Here>
->
 ><br />
 
 ## Contents
@@ -64,7 +63,7 @@ of 3.
 * Apple pay checkout
 * Credit / Debit card system
 
-To set, see [options](#example).
+To set, see [options](#options).
 
 <br />
 
