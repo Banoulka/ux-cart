@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack",
-		"dev": "webpack --watch"
+		"dev": "webpack --watch",
+		"demo": "@php -S localhost:8000"
 	},
 	"author": "N Bamford",
 	"license": "ISC",

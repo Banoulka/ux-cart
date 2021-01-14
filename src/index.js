@@ -1,15 +1,23 @@
 import UXClass from "./UXClass.js";
 
-function init(productEl, productList, settings = {}) {
-	// Initialize class with options setup
-	const uxClass = new UXClass({
-		productElement: productEl,
-		productList,
-	});
+let uxClass;
 
-	uxClass.displayProducts();
+const storageOptions = Object.freeze({
+	'api': 0,
+	'local': 1,
+	'excelFile': 2,
+	'textFile': 3,
+	'console': 4,
+	'none': 5,
+});
+
+function init(config) {
+	// Initialize class with options setup
+	uxClass = new UXClass(config, storageOptions);
 }
 
 export default {
 	init,
+	collect: () => uxClass.collect(),
+	options: storageOptions
 };

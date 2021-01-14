@@ -1,0 +1,11 @@
+#gif-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#gif-container img {
+    margin: 1em 0;
+}
